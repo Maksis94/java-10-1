@@ -1,8 +1,16 @@
 package org.example;
 
 public class Radio {
-    public int station;
-    public int volume;
+    private int station;
+    private int volume;
+
+    public int getStation() {
+        return station;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
 
     public void next() {
         if (station == 9) {
